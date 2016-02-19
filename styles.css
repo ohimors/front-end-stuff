@@ -4,7 +4,7 @@ body {
 }
 
 .content {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -74,14 +74,14 @@ h1 {
 .hero {
   padding: 1em;
   max-width: 100%;
-  background-color: #294860;
+  background-color: #536dfe;
   color: white;
 }
 
 .my-picture {
   display: block;
   margin: 0 auto 10px;
-  width: 100%;
+  max-width: 40%;
   border: 2px solid white;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -90,7 +90,7 @@ h1 {
 
 .iama {
   max-width: 100%;
-  color: #969696;
+  color: #424242;
   letter-spacing: 0.05em;
   font-size: 20px;
   margin: 0;
