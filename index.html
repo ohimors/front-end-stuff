@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>WildMind Portfolio</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css">
     <link rel="stylesheet" href="css/project1.css">
-    <script type="text/javascript"
-            src="bower_components/webcomponentsjs/webcomponents.min.js">
-    </script>
+    <script type="text/javascript" src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
     <link rel="import" href="elements/hello-udacity.html">
     <link rel="import" href="elements/project-card.html">
     <script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script>
@@ -25,8 +24,8 @@
             <span class="mdl-layout-title">WildMind</span>
             <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
-            <div><h5>Stephen Pearl | &nbsp;</h5></div>
-            <div><h6>FRONT-END DEVELOPER</h6></div>
+            <div id="profile-name"><h5>Stephen Pearl | &nbsp;</h5></div>
+            <div id="profile-title"><h6>FRONT-END DEVELOPER</h6></div>
         </div>
         <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col">
         </div>
@@ -45,7 +44,7 @@
 
         </div>
         <div class="mdl-grid">
-
+                <!-- project card tag will fail w3c check because it is a custom component -->
                 <div class="mdl-cell mdl-cell--4-col">
                     <project-card id="ct-card"  title="CrowdTrust Inc" description="Automated Due Diligence for Crowd Funding." image="assets/project1/images/ct.png" ></project-card>
                 </div>
