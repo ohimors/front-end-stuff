@@ -1,15 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Polymer Test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.1.1/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="css/project1.css">
     <script type="text/javascript"
             src="bower_components/webcomponentsjs/webcomponents.min.js">
     </script>
+    <link rel="import" href="elements/hello-udacity.html">
+    <link rel="import" href="elements/project-card.html">
+    <script defer src="https://code.getmdl.io/1.1.1/material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
 </head>
 
-<link rel="import" href="elements/hello-udacity.html">
-	</head>
-	<body>
-		<hello-udacity></hello-udacity>
-	</body>
+<body>
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+        <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col">
+            <i class="material-icons logo">nfc</i>
+            <!-- Title -->
+            <span class="mdl-layout-title">WildMind</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <div><h5>Stephen Pearl | &nbsp;</h5></div>
+            <div><h6>FRONT-END DEVELOPER</h6></div>
+        </div>
+        <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col">
+        </div>
+        <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col">
+        </div>
+        <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col">
+        </div>
+    </header>
+
+    <main class="mdl-layout__content main">
+        <div class="mdl-grid">
+
+            <div class="mdl-cell mdl-cell--12-col">
+                <h4>Featured Work</h4>
+            </div>
+
+        </div>
+        <div class="mdl-grid">
+
+                <div class="mdl-cell mdl-cell--4-col">
+                    <project-card id="ct-card"  title="CrowdTrust Inc" description="Automated Due Diligence for Crowd Funding." image="assets/project1/images/ct.png" ></project-card>
+                </div>
+            <div class="mdl-cell mdl-cell--4-col">
+                    <project-card title="Mangrove Solutions LLC" description="Software Development Consulting" image="assets/project1/images/checks.png"></project-card>
+                </div>
+            <div class="mdl-cell mdl-cell--4-col">
+                    <project-card title="CrowdTrust Checks" description="Background checks for the sharing economy." image="assets/project1/images/ct.png"></project-card>
+                </div>
+        </div>
+    </main>
+</div>
+
+
+</body>
 </html>

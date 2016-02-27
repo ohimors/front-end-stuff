@@ -1,0 +1,21 @@
+.demo-layout-transparent {
+  background: url('../assets/project1/images/header_a.jpg') top no-repeat;
+}
+
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  color: white;
+}
+
+.op-background{
+    opacity: .5;
+    background-color: black;
+}
+.logo{
+    font-size:48px;
+}
+.main{
+    background-color:white;
+
+    overflow: visible;
+}
