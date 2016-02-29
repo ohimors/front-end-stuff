@@ -2,22 +2,24 @@
 <dom-module id="project-card">
     <template>
         <style>
-                .demo-card-wide.mdl-card {
-        width: 384px;
-    }
 
-    .demo-card-wide > .mdl-card__title {
-        color: #fff;
-        height: 176px;
-        /*background-color: #A4698B;*/
-        /*background-color: #856fb1;*/
-    }
+            .demo-card-wide.mdl-card {
+                min-width: 350px;
+            }
 
-    .demo-card-wide > .mdl-card__menu {
-        color: #fff;
-    }
+            .demo-card-wide > .mdl-card__title {
+                color: #fff;
+                height: 176px;
+                /*background-color: #A4698B;*/
+                /*background-color: #856fb1;*/
+            }
+
+            .demo-card-wide > .mdl-card__menu {
+                color: #fff;
+            }
         </style>
-        <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="background: url({{image}}) no-repeat; background-size: 384px 50%;">
+        <div class="demo-card-wide mdl-card mdl-shadow--2dp"
+             style="background: url({{image}}) no-repeat; background-size: 350px 50%; ">
             <div class="mdl-card__title">
                 <h2 class="mdl-card__title-text">{{title}}</h2>
             </div>
@@ -38,27 +40,27 @@
 
     </template>
     <script>
-        	Polymer({
-    		    is: "project-card",
-                properties: {
-                    title : {
-                        type: String,
-                        value: "No Title"
-                    },
-                    description : {
-                        type: String,
-                        value: "No description."
-                    },
-                    image: {
-                        type: String,
-                        value: ""
-                    }
-
+        Polymer({
+            is: "project-card",
+            properties: {
+                title: {
+                    type: String,
+                    value: "No Title"
                 },
-                ready: function(){
-
+                description: {
+                    type: String,
+                    value: "No description."
+                },
+                image: {
+                    type: String,
+                    value: ""
                 }
-    	});
+
+            },
+            ready: function () {
+
+            }
+        });
 
     </script>
 

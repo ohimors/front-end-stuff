@@ -1,21 +1,36 @@
 .demo-layout-transparent {
-  background: url('../assets/project1/images/header_a.jpg') top no-repeat;
+    background: url('../assets/project1/images/header_a.jpg') center/cover;
 }
 
-.demo-layout-transparent .mdl-layout__header,
+.header-color {
+    color: white;
+}
+
+#profile-name {
+    position: relative;
+    top: -4px;
+}
+
+.border-spacing {
+    min-width: 350px;
+}
+
+/*.demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
-  color: white;
-}
 
-.op-background{
+}*/
+
+.op-background {
     opacity: .5;
     background-color: black;
 }
-.logo{
-    font-size:48px;
+
+.logo {
+    font-size: 48px;
 }
-.main{
-    background-color:white;
+
+.main {
+    background-color: white;
 
     overflow: visible;
 }

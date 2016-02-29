@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>WildMind Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -17,17 +18,19 @@
 
 <body>
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-    <header class="mdl-layout__header mdl-layout__header--transparent">
+    <header class=" mdl-layout__header--transparent">
         <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col">
-            <i class="material-icons logo">nfc</i>
+            <i class="material-icons logo header-color">nfc</i>
             <!-- Title -->
-            <span class="mdl-layout-title">WildMind</span>
+            <span class="mdl-layout-title header-color">WildMind</span>
             <!-- Add spacer, to align navigation to the right -->
             <div class="mdl-layout-spacer"></div>
-            <div id="profile-name"><h5>Stephen Pearl | &nbsp;</h5></div>
-            <div id="profile-title"><h6>FRONT-END DEVELOPER</h6></div>
+            <div id="profile-name" class="header-color"><h5>&nbsp;|Stephen Pearl</h5></div>
+
         </div>
         <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col">
+            <div class="mdl-layout-spacer"></div>
+            <div id="profile-title" class="header-color"><h6>FRONT-END DEVELOPER</h6></div>
         </div>
         <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col">
         </div>
@@ -45,15 +48,18 @@
         </div>
         <div class="mdl-grid">
                 <!-- project card tag will fail w3c check because it is a custom component -->
-                <div class="mdl-cell mdl-cell--4-col">
+                <div class="mdl-cell mdl-cell--4-col border-spacing">
                     <project-card id="ct-card"  title="CrowdTrust Inc" description="Automated Due Diligence for Crowd Funding." image="assets/project1/images/ct.png" ></project-card>
                 </div>
-            <div class="mdl-cell mdl-cell--4-col">
+            <div class="mdl-cell mdl-cell--4-col border-spacing">
                     <project-card title="Mangrove Solutions LLC" description="Software Development Consulting" image="assets/project1/images/checks.png"></project-card>
                 </div>
-            <div class="mdl-cell mdl-cell--4-col">
+            <div class="mdl-cell mdl-cell--4-col border-spacing">
                     <project-card title="CrowdTrust Checks" description="Background checks for the sharing economy." image="assets/project1/images/ct.png"></project-card>
                 </div>
+        </div>
+        <div class="mdl-grid">
+            <p>Welcome to the WildMind portfolio.</p>
         </div>
     </main>
 </div>
