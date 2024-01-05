@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 ohimors/front-end-stuff is built on the following main stack:
+
 - [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -12,11 +13,13 @@ ohimors/front-end-stuff is built on the following main stack:
 - [ent](https://entgo.io/) – Object Relational Mapper (ORM)
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 ohimors/front-end-stuff is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/844/iruTC031.png' alt='gulp'/> [gulp](http://gulpjs.com/) – JS Build Tools / JS Task Runners
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -27,14 +30,15 @@ ohimors/front-end-stuff is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/21146/default_3b393819f74c4cb10f98fa9e683fa28cf6cc85f5.png' alt='ent'/> [ent](https://entgo.io/) – Object Relational Mapper (ORM)
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ohimors/front-end-stuff](https://github.com/ohimors/front-end-stuff)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|33<br/>Tools used|11/13/23 <br/>Report generated|
+|34<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -176,9 +180,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (19)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (20)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (19)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (20)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -198,6 +202,7 @@ Full tech stack [here](/techstack.md)
 |[q](https://www.npmjs.com/q)|N/A|02/24/16|Stephen |MIT|N/A|
 |[run-sequence](https://www.npmjs.com/run-sequence)|v1.0.1|02/24/16|Stephen |MIT|N/A|
 |[st](https://www.npmjs.com/st)|N/A|02/24/16|Stephen |ISC|N/A|
+|[test](https://www.npmjs.com/test)|N/A|02/24/16|Stephen |MIT|N/A|
 |[uglify](https://www.npmjs.com/uglify)|N/A|02/24/16|Stephen |MIT|N/A|
 |[url](https://www.npmjs.com/url)|N/A|02/24/16|Stephen |MIT|N/A|
 |[webcomponents.js](https://www.npmjs.com/webcomponents.js)|N/A|02/24/16|Stephen |BSD-3-Clause|N/A|
@@ -205,4 +210,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
